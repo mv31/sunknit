@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contents{
+    width: 200px;
+    margin-left: 2%;
+}
