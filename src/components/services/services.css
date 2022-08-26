@@ -1,5 +1,17 @@
 .services{
+    
+}
+.products{
     display: flex;
     justify-content: space-evenly;
     margin: 5%;
+}
+.productheading{
+    height: 300px;
+    margin: 5%;
+    padding: 2%;
+}
+.serviceButtons{
+    display: flex;
+    justify-content: center;
 }

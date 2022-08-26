@@ -1,0 +1,27 @@
+.aboutcontainer{
+    height: auto;
+    width: 100%;
+    padding: 2%;
+}
+.aboutheading{
+    color: #343e49;
+    display: flex;
+    justify-content: center;
+    margin: 2%;   
+}
+.aboutcontent{
+    color: #343e49;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:auto;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 16%;
+    font-size: 20px;
+}
+.aboutimg{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}

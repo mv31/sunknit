@@ -7,10 +7,11 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
  
-  background: #000;
+  background: #2064b7;
   height: 100px;
   display: flex;
   padding: 2%;
+  width: 100%;
   z-index: 10;
 
 `;
@@ -72,16 +73,16 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #fff;
   padding: 10px 22px;
-  color: #fff;
+  color: black;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  margin-left: 700px;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

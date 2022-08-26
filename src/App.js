@@ -1,6 +1,5 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "./App.css";
-import Slider from "./components/carousel/Slider";
 import Header from "./components/Header/Header";
 import NavBar from "./components/Navbar/NavBar";
 import { LandingPage } from "./pages/LandingPage";
@@ -11,15 +10,15 @@ function App() {
     <Header/>
     <NavBar/>
      <Routes>
-      <Route index element={<LandingPage />}></Route>
-      <Route
+      <Route path="/"element={<LandingPage />}></Route>
+      {/* <Route
         path="*"
         element={
           <main style={{ padding: "1rem" }}>
             <p>There's nothing here!</p>
           </main>
         }
-      />
+      /> */}
     </Routes>
     </>
    
